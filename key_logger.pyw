@@ -199,4 +199,4 @@ if __name__ == '__main__':
               save_other_keys=False, create_file=True,
               append=True, clean_file_before_log=False,
               on_release=None, caps_lock_on=False,
-              close_clause="close_logger", allow_backspaces=True).start()
+              close_clause="close_logger", allow_backspaces=False).start()
